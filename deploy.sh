@@ -5,7 +5,7 @@ find . -not -path '*/\.*' -delete
 
 cd ..
 
-cp -R $(pwd)/peerlancers/dist/peerlancers/ $(pwd)/peermaster.github.io
+cp -R $(pwd)/peerlancers/ $(pwd)/peermaster.github.io
 
 cd peermaster.github.io
 
